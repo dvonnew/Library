@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", 
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+#layout{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bttnBox{
+    height: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#book-list{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px grey solid;
+    display: grid;
+    grid-template-columns:
+    minmax(150px, 1.67fr)
+    minmax(150px, 1.67fr)
+    minmax(100px, 1fr)
+    minmax(100px, 1fr)
+    minmax(50px, 1fr);
+    
+}
+
+th{
+    height: 25px;
+    background: rgb(107, 162, 187);
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+thead, tbody, tr{
+    display: contents;
+}
+
+td{
+    text-align: left;
+    padding: 10px;
+}
+
